@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCA0C885A7FB5FAC2051E09 /* libPods-01-自定义转场动画CABasicAnnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B70DCBEA0F85D09ED816140 /* libPods-01-自定义转场动画CABasicAnnimation.a */; };
+		FC81FEA11EC6B3AB00196A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81FEA01EC6B3AB00196A8D /* main.m */; };
+		FC81FEA41EC6B3AB00196A8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81FEA31EC6B3AB00196A8D /* AppDelegate.m */; };
+		FC81FEA71EC6B3AB00196A8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81FEA61EC6B3AB00196A8D /* ViewController.m */; };
+		FC81FEAA1EC6B3AB00196A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC81FEA81EC6B3AB00196A8D /* Main.storyboard */; };
+		FC81FEAC1EC6B3AB00196A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC81FEAB1EC6B3AB00196A8D /* Assets.xcassets */; };
+		FC81FEAF1EC6B3AB00196A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC81FEAD1EC6B3AB00196A8D /* LaunchScreen.storyboard */; };
+		FC81FEB81EC7444500196A8D /* WeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81FEB71EC7444500196A8D /* WeViewController.m */; };
+		FC81FEBB1EC74DC400196A8D /* WeCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81FEBA1EC74DC400196A8D /* WeCircleAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B70DCBEA0F85D09ED816140 /* libPods-01-自定义转场动画CABasicAnnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-自定义转场动画CABasicAnnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B745E51EE99CAEA8793B0A0 /* Pods-01-自定义转场动画CABasicAnnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-自定义转场动画CABasicAnnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-自定义转场动画CABasicAnnimation/Pods-01-自定义转场动画CABasicAnnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		B1A3CFDA4863F7C0CC0AB08B /* Pods-01-自定义转场动画CABasicAnnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-自定义转场动画CABasicAnnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-自定义转场动画CABasicAnnimation/Pods-01-自定义转场动画CABasicAnnimation.release.xcconfig"; sourceTree = "<group>"; };
+		FC81FE9C1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-自定义转场动画CABasicAnnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC81FEA01EC6B3AB00196A8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC81FEA21EC6B3AB00196A8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC81FEA31EC6B3AB00196A8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC81FEA51EC6B3AB00196A8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC81FEA61EC6B3AB00196A8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC81FEA91EC6B3AB00196A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC81FEAB1EC6B3AB00196A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC81FEAE1EC6B3AB00196A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC81FEB01EC6B3AB00196A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC81FEB61EC7444500196A8D /* WeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeViewController.h; sourceTree = "<group>"; };
+		FC81FEB71EC7444500196A8D /* WeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeViewController.m; sourceTree = "<group>"; };
+		FC81FEB91EC74DC400196A8D /* WeCircleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeCircleAnimation.h; sourceTree = "<group>"; };
+		FC81FEBA1EC74DC400196A8D /* WeCircleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeCircleAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC81FE991EC6B3AB00196A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA0C885A7FB5FAC2051E09 /* libPods-01-自定义转场动画CABasicAnnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09714EB04D63D26AB8FC8435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B745E51EE99CAEA8793B0A0 /* Pods-01-自定义转场动画CABasicAnnimation.debug.xcconfig */,
+				B1A3CFDA4863F7C0CC0AB08B /* Pods-01-自定义转场动画CABasicAnnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53BA841E08E922AC1A75F76A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B70DCBEA0F85D09ED816140 /* libPods-01-自定义转场动画CABasicAnnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC81FE931EC6B3AB00196A8D = {
+			isa = PBXGroup;
+			children = (
+				FC81FE9E1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation */,
+				FC81FE9D1EC6B3AB00196A8D /* Products */,
+				09714EB04D63D26AB8FC8435 /* Pods */,
+				53BA841E08E922AC1A75F76A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC81FE9D1EC6B3AB00196A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC81FE9C1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC81FE9E1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FC81FEA21EC6B3AB00196A8D /* AppDelegate.h */,
+				FC81FEA31EC6B3AB00196A8D /* AppDelegate.m */,
+				FC81FEA51EC6B3AB00196A8D /* ViewController.h */,
+				FC81FEA61EC6B3AB00196A8D /* ViewController.m */,
+				FC81FEB61EC7444500196A8D /* WeViewController.h */,
+				FC81FEB71EC7444500196A8D /* WeViewController.m */,
+				FC81FEB91EC74DC400196A8D /* WeCircleAnimation.h */,
+				FC81FEBA1EC74DC400196A8D /* WeCircleAnimation.m */,
+				FC81FEA81EC6B3AB00196A8D /* Main.storyboard */,
+				FC81FEAB1EC6B3AB00196A8D /* Assets.xcassets */,
+				FC81FEAD1EC6B3AB00196A8D /* LaunchScreen.storyboard */,
+				FC81FEB01EC6B3AB00196A8D /* Info.plist */,
+				FC81FE9F1EC6B3AB00196A8D /* Supporting Files */,
+			);
+			path = "01-自定义转场动画CABasicAnnimation";
+			sourceTree = "<group>";
+		};
+		FC81FE9F1EC6B3AB00196A8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC81FEA01EC6B3AB00196A8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC81FE9B1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC81FEB31EC6B3AB00196A8D /* Build configuration list for PBXNativeTarget "01-自定义转场动画CABasicAnnimation" */;
+			buildPhases = (
+				C052B65285B97A198F11286E /* [CP] Check Pods Manifest.lock */,
+				FC81FE981EC6B3AB00196A8D /* Sources */,
+				FC81FE991EC6B3AB00196A8D /* Frameworks */,
+				FC81FE9A1EC6B3AB00196A8D /* Resources */,
+				6090D0A4CF9E067524273C66 /* [CP] Embed Pods Frameworks */,
+				9B6BF2EE6DF1AFA566CD8C34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-自定义转场动画CABasicAnnimation";
+			productName = "01-自定义转场动画CABasicAnnimation";
+			productReference = FC81FE9C1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC81FE941EC6B3AB00196A8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NIAN;
+				TargetAttributes = {
+					FC81FE9B1EC6B3AB00196A8D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC81FE971EC6B3AB00196A8D /* Build configuration list for PBXProject "01-自定义转场动画CABasicAnnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC81FE931EC6B3AB00196A8D;
+			productRefGroup = FC81FE9D1EC6B3AB00196A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC81FE9B1EC6B3AB00196A8D /* 01-自定义转场动画CABasicAnnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC81FE9A1EC6B3AB00196A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC81FEAF1EC6B3AB00196A8D /* LaunchScreen.storyboard in Resources */,
+				FC81FEAC1EC6B3AB00196A8D /* Assets.xcassets in Resources */,
+				FC81FEAA1EC6B3AB00196A8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6090D0A4CF9E067524273C66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-自定义转场动画CABasicAnnimation/Pods-01-自定义转场动画CABasicAnnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6BF2EE6DF1AFA566CD8C34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-自定义转场动画CABasicAnnimation/Pods-01-自定义转场动画CABasicAnnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C052B65285B97A198F11286E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC81FE981EC6B3AB00196A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC81FEBB1EC74DC400196A8D /* WeCircleAnimation.m in Sources */,
+				FC81FEB81EC7444500196A8D /* WeViewController.m in Sources */,
+				FC81FEA71EC6B3AB00196A8D /* ViewController.m in Sources */,
+				FC81FEA41EC6B3AB00196A8D /* AppDelegate.m in Sources */,
+				FC81FEA11EC6B3AB00196A8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC81FEA81EC6B3AB00196A8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC81FEA91EC6B3AB00196A8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC81FEAD1EC6B3AB00196A8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC81FEAE1EC6B3AB00196A8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC81FEB11EC6B3AB00196A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC81FEB21EC6B3AB00196A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC81FEB41EC6B3AB00196A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B745E51EE99CAEA8793B0A0 /* Pods-01-自定义转场动画CABasicAnnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-自定义转场动画CABasicAnnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.-1--------CABasicAnnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC81FEB51EC6B3AB00196A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A3CFDA4863F7C0CC0AB08B /* Pods-01-自定义转场动画CABasicAnnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-自定义转场动画CABasicAnnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.-1--------CABasicAnnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC81FE971EC6B3AB00196A8D /* Build configuration list for PBXProject "01-自定义转场动画CABasicAnnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC81FEB11EC6B3AB00196A8D /* Debug */,
+				FC81FEB21EC6B3AB00196A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC81FEB31EC6B3AB00196A8D /* Build configuration list for PBXNativeTarget "01-自定义转场动画CABasicAnnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC81FEB41EC6B3AB00196A8D /* Debug */,
+				FC81FEB51EC6B3AB00196A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC81FE941EC6B3AB00196A8D /* Project object */;
+}

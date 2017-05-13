@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FV-6a-deq">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="3bO-6O-vv6" kind="presentation" id="nIm-5k-LVn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5FV-6a-deq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dGG-Wh-F6o"/>
+                            <constraint firstItem="5FV-6a-deq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qC2-qv-Gky"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ndi-6a-F8v">
+            <objects>
+                <viewController storyboardIdentifier="WeViewController" id="3bO-6O-vv6" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZzH-sw-spH"/>
+                        <viewControllerLayoutGuide type="bottom" id="zKO-u5-CrD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ddH-KQ-lOK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="老婆1号" translatesAutoresizingMaskIntoConstraints="NO" id="tgm-Ul-CfR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zKO-u5-CrD" firstAttribute="top" secondItem="tgm-Ul-CfR" secondAttribute="bottom" id="GhX-Kj-DIF"/>
+                            <constraint firstItem="tgm-Ul-CfR" firstAttribute="top" secondItem="ddH-KQ-lOK" secondAttribute="top" id="L4u-aa-3Ot"/>
+                            <constraint firstItem="tgm-Ul-CfR" firstAttribute="leading" secondItem="ddH-KQ-lOK" secondAttribute="leading" id="eBy-ju-xAd"/>
+                            <constraint firstAttribute="trailing" secondItem="tgm-Ul-CfR" secondAttribute="trailing" id="iMO-uL-HCt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5m-Z4-xNW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="882" y="60"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="老婆1号" width="152" height="220"/>
+    </resources>
+</document>
